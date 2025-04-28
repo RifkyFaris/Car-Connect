@@ -1,0 +1,118 @@
+/* Card container styling */
+.card {
+    background-color: #f8fafc;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    transition: all 0.3s;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Heading styling */
+  .card-heading {
+    font-size: 1.75rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #2d3748;
+  }
+  
+  /* Price styling */
+  .card-price {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #e53e3e;
+    margin-bottom: 20px;
+  }
+  
+  /* Actions buttons styling */
+  .card-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .card-actions button {
+    font-size: 1rem;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .edit-btn {
+    background-color: #3182ce;
+    color: white;
+  }
+  
+  .edit-btn:hover {
+    background-color: #2b6cb0;
+  }
+  
+  .delete-btn {
+    background-color: #e53e3e;
+    color: white;
+  }
+  
+  .delete-btn:hover {
+    background-color: #c53030;
+  }
+  
+  /* Edit form styling */
+  .edit-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .edit-input {
+    padding: 12px;
+    font-size: 1rem;
+    border: 2px solid #e2e8f0;
+    border-radius: 8px;
+  }
+  
+  .edit-input:focus {
+    border-color: #3182ce;
+    outline: none;
+  }
+  
+  .edit-actions {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .update-btn,
+  .cancel-btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .update-btn {
+    background-color: #3182ce;
+    color: white;
+    border: none;
+  }
+  
+  .update-btn:hover {
+    background-color: #2b6cb0;
+  }
+  
+  .cancel-btn {
+    background-color: #f7fafc;
+    color: #2d3748;
+    border: 2px solid #e2e8f0;
+  }
+  
+  .cancel-btn:hover {
+    background-color: #e2e8f0;
+    color: #2b6cb0;
+  }
+  

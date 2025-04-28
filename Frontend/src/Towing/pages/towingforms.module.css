@@ -1,0 +1,102 @@
+/* Form Container */
+.frame {
+    border: none;
+    border-radius: 15px;
+    padding: 40px;
+    background: linear-gradient(135deg, #2a2a2a, #3d3d3d);
+    color: #fff;
+    max-width: 420px;
+    width: 90%;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.5);
+    animation: fadeIn 0.5s ease-in-out;
+    margin: 20px auto;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #f1f1f1;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Form Group */
+.formGroup {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 6px;
+    color: #f1f1f1;
+}
+
+.input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #555;
+    border-radius: 8px;
+    font-size: 16px;
+    background: #444;
+    color: #fff;
+    transition: border 0.3s ease-in-out;
+}
+
+.input:focus {
+    border-color: #dc323f;
+    outline: none;
+    box-shadow: 0px 0px 8px rgba(220, 50, 63, 0.5);
+}
+
+/* Buttons */
+.button {
+    background: linear-gradient(135deg, #dc323f, #a81f2b);
+    color: white;
+    border: none;
+    padding: 14px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 12px;
+    transition: all 0.3s ease-in-out;
+}
+
+.button:hover {
+    background: linear-gradient(135deg, #e23b49, #b92030);
+    box-shadow: 0px 4px 12px rgba(220, 50, 63, 0.4);
+    transform: translateY(-2px);
+}
+
+/* Error Messages */
+.error {
+    color: #ff6b6b;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+/* Fade In Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .frame {
+        width: 95%;
+        padding: 30px;
+    }
+}

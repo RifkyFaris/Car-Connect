@@ -1,0 +1,99 @@
+/* Main container styling */
+.homeContainer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    background: linear-gradient(135deg, #686868, #48484a);
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Heading styling */
+  .heading {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .heading h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #f8f8f6;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
+  /* Loading message styling */
+  .loadingText {
+    font-size: 1.125rem;
+    color: #718096;
+    text-align: center;
+    font-style: italic;
+    margin-top: 2rem;
+  }
+  
+  /* Button to navigate to User Towing Home */
+  .goToUserTowingHomeBtn {
+    display: block;
+    margin: 0 auto;
+    padding: 12px 20px;
+    background: #ff8c00;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease;
+  }
+  
+  .goToUserTowingHomeBtn:hover {
+    background: #ff512f;
+    transform: scale(1.05);
+  }
+  
+  /* Service grid layout */
+  .serviceGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+    margin-top: 2rem;
+  }
+  
+  /* No services found message */
+  .noServiceMessage {
+    text-align: center;
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: #4a5568;
+    margin-top: 2rem;
+  }
+  
+  /* Create service link styling */
+  .createLink {
+    color: #3182ce;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  .createLink:hover {
+    color: #2b6cb0;
+    text-decoration: underline;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+  }
+  
+  /* Responsive font and spacing for mobile view */
+  @media (max-width: 768px) {
+    .heading h1 {
+        font-size: 2rem;
+    }
+  
+    .serviceGrid {
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    }
+  
+    .noServiceMessage {
+        font-size: 1rem;
+    }
+  }

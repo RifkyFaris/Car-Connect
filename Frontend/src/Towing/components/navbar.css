@@ -1,0 +1,89 @@
+/* Container styling for the navbar */
+.navbar-container-yassien {
+    width: 100%;
+    max-width: 1140px;
+    padding: 0 16px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+  
+  /* Navbar styling */
+  .navbar-yassien {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 16px 0;
+  }
+  
+  /* Logo Styling */
+  .logo-yassien {
+    font-family: Arial, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: #dc323f;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .logo-yassien a {
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.3s;
+  }
+  
+  .logo-yassien a:hover {
+    color: #b0192e;
+  }
+  
+  /* Button container styling */
+  .nav-actions-yassien {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  /* Add Button Styling */
+  .add-btn-yassien {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #3182ce;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .add-btn-yassien:hover {
+    background-color: #2b6cb0;
+    transform: translateY(-3px);
+  }
+  
+  .add-btn-yassien svg {
+    margin-right: 8px;
+  }
+  
+  /* Responsive Design for Smaller Screens */
+  @media screen and (max-width: 768px) {
+    .navbar-yassien {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .nav-actions-yassien {
+      margin-top: 10px;
+    }
+  
+    .logo-yassien {
+      font-size: 30px;
+      margin-bottom: 15px;
+    }
+  }
+  
