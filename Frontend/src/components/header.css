@@ -1,0 +1,647 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Overpass:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/* font-size: 20px;
+    font-family: "Work Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;*/
+:root{
+    --red:#dc323f;
+    --lightgrey:#636363;
+    --palewhite:#d3d3b0;
+    --white:#f8f8f8;
+    --black:#0b0c0e;
+    --darkgrey:#222222;
+}
+a{
+  text-decoration: none;
+}
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+background: var(--black);
+}
+.container{
+    max-width: 1250px;
+    margin: 25px auto 0px auto;
+    
+}
+.container1{
+  max-width: 1250px;
+  margin: 10px auto 0px auto;
+  
+}
+/*nav start*/
+.logo{
+    width: 200px;
+    border-radius: 6px;
+    margin-left: 20px;
+    margin-top: -15px;
+    margin-bottom: -10px;
+    cursor: pointer;
+    
+}
+.nav{
+   display: flex;
+   justify-content: space-between;
+   background: var(--darkgrey);
+   padding: 10px 10px 10px 10px;
+   border-radius: 6px;
+}
+
+
+.navmenu{
+  background: var(--palewhite);
+  padding: 10px 20px 10px 20px;
+ border-radius: 6px;
+ margin-top: 10px;
+
+ 
+  
+}
+.navmenus{
+  text-decoration: none;
+  color: var(--darkgrey);
+  padding: 5px;
+  border: 1px solid var(--white);
+  border-radius: 6px;
+}
+.navmenus:hover{
+  background: var(--white);
+  padding: 5px;
+  border-radius: 6px;
+  color: var(--darkgrey);
+}
+.hero{
+    background: var(--darkgrey);
+    border-radius: 6px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+ul{
+  list-style: none;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  font-size: 20px;
+  font-family: "Work Sans", serif;
+font-optical-sizing: auto;
+font-weight: 400;
+font-style: normal;
+  
+}
+/*nav end*/
+
+
+/*footer start*/
+.footerContainer{
+  background: var(--darkgrey);
+  
+  border-radius:6px;
+  max-width: 1250px;
+  margin: 10px auto 10px auto;
+}
+
+    
+.footer{
+  
+  display: flex;
+ 
+}
+.footerLogo{
+  width: 300px;
+  margin-left: 45px;
+}
+.col1{
+  padding: 20px;
+  width: 400px;
+}
+.meezan{
+  font-family: "Work Sans", serif;
+  font-optical-sizing: auto;
+  font-weight:400;
+  color: var(--lightgrey);
+  line-height: 23px;
+  margin-top: 15px;
+  font-size: 14px;
+}
+.footerSocial{
+  width: 22px;
+  height: 22px;
+  margin-top: 20px;
+  margin-right: 10px;
+  color: var(--white);
+  padding: 6px;
+  border-radius: 50px;
+}
+
+
+
+.col2{
+  display: flex;
+  justify-content: space-between;
+  width: 320px;
+  padding: 20px;
+  margin-top: 40px;
+  
+}
+.footerLink{
+  font-family: "Work Sans", serif;
+  font-optical-sizing: auto;
+  font-weight:400;
+  color: var(--white);
+  line-height: 23px;
+  margin-top: 15px;
+  font-size: 17px;
+}
+.footerLink:hover{
+  color: var(--red);
+}
+.col3{
+  width: 400px;
+  padding: 20px;
+  margin-top: 40px;
+  margin-left: 10px;
+}
+.accepted{ 
+  font-family: "Work Sans", serif;
+  font-optical-sizing: auto;
+  font-weight:400;
+  color: var(--white);
+}
+.paymentlogo{
+  width: 50px;
+}
+.paymentImages{
+  margin-top: 10px;
+  justify-content: space-between;
+  background-color: var(--white);
+  width: 280px;
+  padding: 10px;
+  border-radius: 8px;
+}
+.copyright{
+  font-family: "Work Sans", serif;
+  font-optical-sizing: auto;
+  font-weight:400;
+  color: rgb(106, 106, 106);
+  margin: 10px 30px 10px 30px;
+  border: 1px solid var(--back);
+  padding: 15px;
+}
+
+/*footer end*/
+
+/*hero start*/
+.video{
+  border-radius: 6px;
+  width: 800px;
+  height: 220px;
+  margin-top: 200px;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  
+  
+}
+
+.text{
+  padding: 45px 0px 20px 10px;
+}
+.we{
+  font-size: 60px;
+  font-family: "Work Sans", serif;
+font-optical-sizing: auto;
+font-weight: 500;
+font-style: normal;
+text-align: left;
+color: var(--white);
+}
+.ai{
+  color: var(--red);
+}
+.collaborate{
+  font-size: 19px;
+  font-family: "Work Sans", serif;
+font-optical-sizing: auto;
+font-weight: 300;
+font-style: normal;
+text-align: left;
+color: var(--lightgrey);
+}
+.schedule{
+  background: var(--lightgrey);
+  color: var(--white);
+  padding: 20px;
+  width: 260px;
+  border-radius: 6px;
+  text-align: center;
+  font-size: 19px;
+  font-family: "Work Sans", serif;
+font-optical-sizing: auto;
+font-weight: 500;
+font-style: normal;
+}
+a{
+  text-decoration: none;
+}
+.schedule:hover{
+  background: var(--red);
+  color: var(--white);
+}
+
+/* car logo start*/
+.car_logo{
+display: flex;
+margin: 0px auto 0px auto;
+gap: 40px;
+
+}
+.carLogo{
+width: 80px;
+
+}
+.audilogo{
+width: 150px;
+}
+.isuzulogo{
+width: 150px;
+}
+.kialogo{
+width: 120px;
+
+}
+/* car logo end*/
+
+/*our services start*/
+.hero1{
+  background: var(--white);
+  border-radius: 6px;
+  padding: 20px;
+  
+}
+.row{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  
+}
+.col1_service{
+  
+  padding: 30px;
+  border-radius: 6px;
+ 
+  border: 3px solid var(--red);
+  color: var(--blue);
+  font-family: "Work Sans", serif;
+font-optical-sizing: auto;
+font-weight: 500;
+font-style: normal;
+font-size: 20px;
+line-height: 30px;
+width: 290px;
+text-align: left;
+}
+.no{
+  color: var(--darkgrey);
+  font-family: "Work Sans", serif;
+font-optical-sizing: auto;
+font-weight: 700;
+font-style: normal;
+font-size: 40px;
+
+}
+.row1{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+.quote{
+  color: var(--red);
+  font-family: "Work Sans", serif;
+font-optical-sizing: auto;
+font-weight: 400;
+font-style: normal;
+font-size: 16px;
+line-height: 20px;
+margin-top: 10px;
+}
+.col1_service:hover{
+  border: 3px solid var(--darkgrey);
+}
+.service_list{
+  color: var(--darkgrey);
+}
+/*our services end*/
+#logoutButton:hover{
+  background: var(--white);
+  color: var(--red);
+}
+#logoutButton{
+  background: var(--red);
+  color: var(--white);
+  border: none;
+}
+
+@media screen and (max-width:450px){
+    
+  .container{
+      max-width: 360px;
+      margin: 15px auto 0px auto;
+      
+  }
+  .container1{
+    max-width: 360px;
+    margin: 10px auto 0px auto;
+    
+  }
+  .footerContainer{
+    background: var(--darkgrey);
+    
+    border-radius:6px;
+    max-width: 360px;
+    margin: 10px auto 20px auto;
+  }
+  
+  .nav{
+     padding: 10px 10px 10px 10px;
+  }
+  
+  ul{
+      display: block;
+     
+  }
+  .navmenus{
+    border:none;
+  }
+  
+/*footer start*/
+
+.footer{
+  display: block;
+}
+.footerLogo{
+  width: 200px;
+  margin-left: 52px;
+}
+.col1{
+  width: 310px;
+}
+.meezan{
+  margin-top: 10px;
+  font-size: 13px;
+  text-align: center;
+}
+.footerSocial{
+  width: 20px;
+  height: 20px;
+  margin-top: 15px;
+}
+
+.col2{
+  width: 310px;
+  padding: 20px;
+  margin-top: -20px;
+  
+}
+.footerLink{
+  line-height: 20px;
+  margin-top: 15px;
+  font-size: 16px;
+}
+.col3{
+  width: 310px;
+}
+.paymentlogo{
+  width: 50px;
+}
+.paymentImages{
+  width: 270px;
+}
+
+/*footer end*/
+
+.video{
+  width: 300px;
+  height: 90px;
+  margin-top: 80px;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+  margin-left: 10px;   
+}
+
+.hero{
+  flex-direction: column-reverse;
+  
+}
+.text{
+  padding: 20px ;
+}
+.we{
+  font-size: 25px;
+  
+
+text-align: center;
+
+}
+.ai{
+  color: var(--red);
+}
+.collaborate{
+  font-size: 16px;
+  
+text-align: center;
+}
+.schedule{
+      
+  padding: 15px;
+  width: 255px;
+  border-radius: 6px;
+  font-size: 16px;
+  font-family: "Work Sans", serif;
+font-optical-sizing: auto;
+font-weight: 300;
+font-style: normal;
+text-align: center;
+}
+
+.row{
+  display: block;
+  
+}
+.col1_service{
+  
+  padding: 10px;
+ 
+  border: 2.5px solid var(--red);
+  
+font-size: 20px;
+line-height: 25px;
+width: 290px;
+margin: 15px 0px 15px 0px;
+}
+.no{
+  
+font-weight: 600;
+font-size: 30px;
+
+}
+.row1{
+  display: block;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+.quote{
+  
+margin-top: 10px;
+}
+
+
+/* car logo start*/
+.car_logo{
+  display: flex;
+  gap: 10px;
+}
+.carLogo{
+  width: 20px;
+
+}
+.audilogo{
+  width: 40px;
+}
+.isuzulogo{
+  width: 40px;
+}
+.kialogo{
+  width: 40px;
+ 
+}
+/* car logo end*/
+
+
+}  
+
+
+@media screen and (max-width:376px){
+   
+  .container{
+      max-width: 330px;
+      margin: 15px auto 0px auto;
+      
+  }
+  .container1{
+    max-width: 330px;
+    
+  }
+  .footerContainer{
+    background: var(--darkgrey);
+    
+    border-radius:6px;
+    max-width: 330px;
+    margin: 10px auto 20px auto;
+  }
+  
+  
+/*footer start*/
+
+.footer{
+  display: block;
+}
+.footerLogo{
+  width: 200px;
+  margin-left: 40px;
+}
+.col1{
+  width: 270px;
+}
+.meezan{
+  margin-top: 10px;
+  font-size: 13px;
+  text-align: center;
+}
+.footerSocial{
+  width: 20px;
+  height: 20px;
+  margin-top: 15px;
+}
+
+.col2{
+  width: 270px;
+  padding: 20px;
+  margin-top: -20px;
+  
+}
+.footerLink{
+  line-height: 20px;
+  margin-top: 15px;
+  font-size: 16px;
+}
+.col3{
+  width: 270px;
+}
+.paymentlogo{
+  width: 40px;
+}
+.paymentImages{
+  width: 220px;
+}
+
+/*footer end*/
+
+.video{
+  border-radius: 6px;
+  width: 290px;
+  height: 100px;
+  margin-left: 5px;
+  
+}
+.we{
+  font-size: 25px;
+  
+
+text-align: center;
+
+}
+.schedule{
+  
+  padding: 15px;
+  width: 220px;
+  border-radius: 6px;
+  font-size: 16px;
+  font-family: "Work Sans", serif;
+font-optical-sizing: auto;
+font-weight: 250;
+font-style: normal;
+}
+/* car logo start*/
+.car_logo{
+display: flex;
+gap: 10px;
+}
+.carLogo{
+width: 20px;
+
+}
+.audilogo{
+width: 40px;
+}
+.isuzulogo{
+width: 40px;
+}
+.kialogo{
+width: 40px;
+
+}
+/* car logo end*/
+.col1_service{
+    
+   
+  width: 270px;
+}
+
+}
