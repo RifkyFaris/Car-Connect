@@ -20,7 +20,7 @@ const Success = () => {
       }
       
       try {
-        const response = await fetch(`http://localhost:5000/api/checkout/session/status?session_id=${sessionId}`);
+        const response = await fetch(`http://localhost:3000/api/checkout/session/status?session_id=${sessionId}`);
         if (!response.ok) {
           throw new Error(`Server error: ${response.status}`);
         }
@@ -32,6 +32,7 @@ const Success = () => {
           const bookingDetails = JSON.parse(localStorage.getItem('bookingDetails'));
  
           if (bookingDetails) {
+            console.log("Sending bookingDetails to store:", bookingDetails);
             const { success, message } = await createBooking(bookingDetails);
             console.log(success, message);
  

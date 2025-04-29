@@ -33,5 +33,6 @@ app.use('/',repairSharaf);
 app.use('/',bookingsharaf);
 app.use('/',yassientowing);
 app.use('/',yassienuserDetail);
-app.use('/',sharafcheckout)
+app.use('/api', sharafcheckout);
+
 module.exports=app;

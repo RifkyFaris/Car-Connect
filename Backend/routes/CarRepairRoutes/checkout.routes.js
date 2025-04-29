@@ -7,7 +7,8 @@ const router = express.Router();
 
 
 
-router.route('/api/create/checkout/session').post(createCheckoutSession);
-router.route('/api/checkout/session/status').get(getSessionStatus); 
+router.post('/create/checkout/session', createCheckoutSession);
+router.get('/checkout/session/status', getSessionStatus);
+
 
 module.exports=router
